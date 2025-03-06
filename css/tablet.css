@@ -1,0 +1,57 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .name {
+    display: none; /* Ẩn tên trên Tablet */
+  }
+
+  nav a {
+    padding: 10px 15px; /* Điều chỉnh khoảng cách giữa các item */
+  }
+  #navbar a:link,
+  a:visited {
+    padding: 10px;
+    margin-right: 1rem;
+    padding-bottom: 30px;
+  }
+  #navbar {
+    margin-top: 1rem;
+  }
+
+  #target2-info {
+    font-size: 16px;
+    padding-right: 80px;
+  }
+  #target {
+    font-size: 16px;
+  }
+
+  .cn-1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .certificate-container {
+    flex-direction: column;
+    gap: 30px;
+    display: block;
+  }
+  .project-title {
+    font-size: 14px;
+  }
+  .project-border {
+    font-size: 10px;
+    padding: 10px 4px !important;
+  }
+  .project-border span {
+    margin-right: 5px !important;
+  }
+  td {
+    font-size: 12px;
+  }
+  tr td:first-child {
+    width: 30%;
+  }
+  .gk img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+}

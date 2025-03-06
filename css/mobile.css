@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  .container-tt {
+    flex-direction: column; /* Dàn các item theo chiều dọc */
+    align-items: flex-start; /* Căn trái các item */
+  }
+
+  nav a {
+    display: block; /* Hiển thị các item theo chiều dọc */
+    padding: 8px 10px; /* Điều chỉnh khoảng cách giữa các item */
+    margin: 5px 0; /* Khoảng cách giữa các item */
+  }
+
+  .name {
+    display: none; /* Ẩn tên trên Mobile */
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+  }
+  #navbar a:link,
+  a:visited {
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+
+  #target2-info {
+    padding-right: 80px;
+  }
+  #footer a:link {
+    margin-right: 10px;
+  }
+  .cn-1 {
+    border-left: none !important;
+  }
+}
