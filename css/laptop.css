@@ -72,12 +72,16 @@ a {
 }
 #about #target {
   background-color: #f7f7f7;
+  width: 100%; /* Chiều rộng 100% */
+  height: 100vh; /* Chiều cao 100% viewport */
   padding-left: 60px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 #about #target2-info {
   background-color: #babfc1;
+  width: 100%; /* Chiều rộng 100% */
+  height: 100vh; /* Chiều cao 100% viewport */
   padding-left: 60px;
   padding-top: 60px;
   padding-bottom: 60px;
